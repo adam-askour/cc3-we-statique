@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.title{
+    text-shadow: 0px 0px 6px rgb(110, 197, 221);
+}
+#hero{
+    font-family: "Orbitron", sans-serif;
+    font-size: 35px;
+    font-weight: 500px;
+    font-style: normal;
+    color: #005389ff;
+    background-image: url("imageDePprojetCc3/giphy.gif");
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0px 200px 0px ;
+}
+#spaceX{
+    width: 300px;
+}
+#mission1{
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    gap: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 6px solid rgb(67, 67, 75);
+    border-radius: 15px;
+    padding: 30px 40px 50px 40px;
+    box-shadow: 0 0 95px rgba(130, 138, 141, 0.671);
+}
+.img1{
+    width: 98%;
+    height: 400px;
+    background-image: url(imageDePprojetCc3/Moon_Landing_GIF_by_MOODMAN.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin-left: 13px;
+}
+.date1{
+    border: 6px solid rgb(67, 67, 75);
+    border-radius: 15px;
+    background-color: rgb(45, 45, 53);
+    justify-content: center;
+}
+.description1{
+    border: 6px solid rgb(67, 67, 75);
+    border-radius: 15px;
+    padding: 30px 90px;
+    background-color: rgb(45, 45, 53);
+}

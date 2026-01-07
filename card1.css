@@ -1,0 +1,241 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+.welcoming{
+    margin-top: 130px;
+    word-spacing: 16px;
+    letter-spacing: 4px;
+}
+.title{
+    text-shadow: 0px 0px 6px rgb(110, 197, 221);
+}
+#hero{
+    font-family: "Orbitron", sans-serif;
+    font-size: 35px;
+    font-weight: 500px;
+    font-style: normal;
+    color: #005389ff;
+    background-image: url("imageDePprojetCc3/giphy.gif");
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0px 200px 0px ;
+}
+#spaceX{
+    width:300px;
+}
+#paragraphes{
+    background-image: linear-gradient( #00010f, #000000);
+    /* background: linear-gradient(rgb(0, 0, 5),black); */
+    color: #005389ff;
+    font-family: "Orbitron",sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    padding-bottom: 200px;
+}
+.para1{
+    margin: 0px 260px;
+    border: 6px solid rgb(0, 0, 75);
+    border-radius: 15px;
+    padding: 30px 90px;
+    background-color: rgb(3, 3, 31);
+    box-shadow: 0 0 95px rgba(56, 189, 248, 0.25);
+}
+.para2{
+    margin: 100px 260px;
+    border: 6px solid rgb(0, 0, 75);
+    border-radius: 15px;
+    padding: 30px 90px;
+    background-color: rgb(3, 3, 31);
+    box-shadow: 0 0 95px rgba(56, 189, 248, 0.25);
+}
+#planet_cards{
+    font-family: "Orbitron",sans-serif;
+    font-weight: 800;
+    font-size: 19px;
+    padding-bottom: 200px;
+}
+.Planet_card_1{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(0, 0, 75);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.671);
+    overflow: hidden; 
+}
+.planet_card_1_text{
+    width: 35%;
+    padding: 30px;
+    color: #005389ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_1_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/mercury_GIF.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_2{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(214, 114, 0);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(255, 136, 0, 0.671);
+    overflow: hidden; 
+}
+.planet_card_2_text{
+    width: 35%;
+    padding: 30px;
+    color: rgb(214, 114, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_2_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/Venus_GIF_by_The_Telegraph.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_3{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(0, 0, 75);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.671);
+    overflow: hidden; 
+}
+.planet_card_3_text{
+    width: 35%;
+    padding: 30px;
+    color: #005389ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_3_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/gif_earth.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_4{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(180, 53, 53);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(180, 53, 53, 0.671);
+    overflow: hidden; 
+}
+.planet_card_4_text{
+    width: 35%;
+    padding: 30px;
+    color: rgb(180, 53, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_4_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/mars_gif.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_5{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(223, 63, 0);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(223, 63, 0, 0.671);
+    overflow: hidden; 
+}
+.planet_card_5_text{
+    width: 35%;
+    padding: 30px;
+    color: rgb(223, 63, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_5_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/jupiter_gif.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_6{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(255, 210, 152);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(255, 210, 152, 0.671);
+    overflow: hidden; 
+}
+.planet_card_6_text{
+    width: 35%;
+    padding: 30px;
+    color: rgb(255, 210, 152);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_6_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/saturn_gif.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_7{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(151, 212, 253);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(151, 212, 253, 0.671);
+    overflow: hidden; 
+}
+.planet_card_7_text{
+    width: 35%;
+    padding: 30px;
+    color: rgb(151, 212, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_7_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/uranus_gif.gif);
+    background-size: cover;
+    background-position: center;
+}
+.Planet_card_8{
+    display: flex;
+    height: 320px;                
+    margin: 100px 100px 200px;
+    border: 6px solid rgb(0, 50, 137);
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(0, 50, 137, 0.671);
+    overflow: hidden; 
+}
+.planet_card_8_text{
+    width: 35%;
+    padding: 30px;
+    color: rgb(0, 50, 137);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.planet_card_8_img{
+    width: 65%;
+    background-image: url(imageDePprojetCc3/neptune_gif.gif);
+    background-size: cover;
+    background-position: center;
+}

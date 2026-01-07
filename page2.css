@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+    color: #005389ff;
+    font-family: "Orbitron" , sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+    margin-top: 70px;
+}
+.cards1_2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card1{
+    border:  4px solid rgb(0, 0, 50);
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    padding:10px 30px;
+    background-image: url(imageDePprojetCc3/gravity_solar_system_GIF.gif);
+    background-size: cover;
+    
+}
+.card1{
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card1:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 100px rgba(56, 189, 248, 0.25);
+}
+.card2{
+    border:  4px solid rgb(0, 0, 50);
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    padding:10px 30px;
+    background-image: url(imageDePprojetCc3/floating_astonaute.gif);
+    background-size: cover;
+    background-position: end;
+}
+.card2{
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card2:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 100px rgba(56, 189, 248, 0.25);
+}
+.cards3_4{
+    display: flex;
+    justify-content: space-around;
+}
+.card3{
+    border:  4px solid rgb(0, 0, 50);
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    padding:10px 30px;
+    background-image: url(imageDePprojetCc3/space_station.gif);
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card3:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 100px rgba(56, 189, 248, 0.25);
+}
+.card4{
+    border:  4px solid rgb(0, 0, 50);
+    border-radius: 30px;
+    width: 400px;
+    height:400px;
+    padding:10px 30px;
+    background-image: url(imageDePprojetCc3/Space_Voyager_GIF_by_NASA.gif);
+    background-size: cover;
+    background-position: center;
+}
+.card4{
+    background-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card4:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 100px rgba(56, 189, 248, 0.25);
+}
+.card1text{
+    color: white;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    /* background-color: rgba(0, 0, 0, 0.493); */
+    font-weight: 700;
+    background-size: cover;
+    text-align: center;
+    transition: transforme 0.3s ease;
+}
+.card1:hover .card1text {
+    transform: translateY(-4px);
+}
+.card2:hover .card2text {
+    transform: translateY(-4px);
+}
+.card3:hover .card3text {
+    transform: translateY(-4px);
+}
+.card4:hover .card4text {
+    transform: translateY(-4px);
+}
+a{
+    text-decoration: none;
+}
+.card2text{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.089);
+    background-size: cover;
+    text-align: center;
+    transition: transforme 0.3s ease;
+    font-weight: 700;
+}
+.card3text{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    /* background-color: rgba(0, 0, 0, 0.301); */
+    font-weight: 900;
+    background-size: cover;
+    text-align: center;
+    transition: transforme 0.3s ease;
+}
+.card4text{
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 15px rgb(255, 244, 244);
+    font-weight: 900;
+    background-size: cover;
+    text-align: center;
+    transition: transforme 0.3s ease;
+}
+.card1text h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #e5f2ff;
+}
+.card2text h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #e5f2ff;
+    text-shadow: 0px 0px 15px white;
+}
+.card3text h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #e5f2ff;
+}
+.card4text h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+
