@@ -65,7 +65,7 @@ body{
     width:300px;
 }
 h1{
-    text-shadow: 0px 0px 10px rgb(110, 197, 221);
+    text-shadow: 0px 0px 7px rgb(110, 197, 221);
 }
 h3{
     color:  #005389ff;
@@ -82,7 +82,7 @@ h3{
     color: #005389ff;
 }
 #section2{
-    background-image: linear-gradient( #00010f, #000000);
+    background-image: linear-gradient( black,#00010f, #000000);
     /* background: linear-gradient(rgb(0, 0, 5),black); */
     color: #005389ff;
     font-family: "Orbitron",sans-serif;
@@ -132,4 +132,7 @@ a{
 .social{
     width: 40px;
     height: 40px;
+}
+hr{
+    width: 82%;
 }

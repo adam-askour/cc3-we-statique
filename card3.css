@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+    margin: 0px;
+    font-family: "Orbitron", sans-serif;
+}
+.title{
+    text-shadow: 0px 0px 6px rgb(110, 197, 221);
+}
+#hero{
+    font-size: 35px;
+    font-weight: 500px;
+    font-style: normal;
+    color: #005389ff;
+    background-image: url("imageDePprojetCc3/giphy.gif");
+    background-size: cover;
+    text-align: center;
+    padding: 20px 0px 200px 0px ;
+}
+#spaceX{
+    width: 300px;
+}
+#technologies{
+    background-image: linear-gradient(black, rgb(0, 0, 54),black);
+}
+.technologie1{
+    width: 85%;
+    min-height: 600px;
+    margin: 0 auto;
+    border: 5px solid #2d479b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.pic1{
+    width: 40%;
+    background-color: rgba(5, 11, 26, 0.35);
+    background-image: url(imageDePprojetCc3/rocket.jpg);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-position: center;
+    background-size: cover;
+}
+.text1{
+    padding: 40px 60px;
+    background: linear-gradient(180deg, #0a264b, #000000);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 65);
+}
+.title1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #005389ff;
+    padding-bottom: 40px;
+    border-bottom:5px solid rgb(47, 68, 145) ;
+    border-radius: 10px;
+}
+.descr1{
+    color: #005389ff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.technologie2{
+    width: 85%;
+    min-height: 600px;
+    margin: 200px auto;
+    border: 5px solid #2d479b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pic2{
+    width: 40%;
+    background-color: rgba(5, 11, 26, 0.35);
+    background-image: url(imageDePprojetCc3/satelite.avif);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-position: center;
+    background-size: cover;
+}
+.text2{
+    padding: 40px 60px;
+    background: linear-gradient(180deg, #0a264b, #000000);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 65);
+}
+.title2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #005389ff;
+    padding-bottom: 40px;
+    border-bottom:5px solid rgb(47, 68, 145) ;
+    border-radius: 10px;
+}
+.descr2{
+    color: #005389ff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.technologie3{
+    width: 85%;
+    min-height: 600px;
+    margin: 200px auto;
+    border: 5px solid #2d479b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.pic3{
+    width: 40%;
+    background-color: rgba(5, 11, 26, 0.35);
+    background-image: url(imageDePprojetCc3/spacetele.webp);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-position: center;
+    background-size: cover;
+}
+.text3{
+    padding: 40px 60px;
+    background: linear-gradient(180deg, #0a264b, #000000);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 65);
+}
+.title3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #005389ff;
+    padding-bottom: 40px;
+    border-bottom:5px solid rgb(47, 68, 145) ;
+    border-radius: 10px;
+}
+.descr3{
+    color: #005389ff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.technologie4{
+    width: 85%;
+    min-height: 600px;
+    margin: 200px auto;
+    border: 5px solid #2d479b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pic4{
+    width: 40%;
+    background-color: rgba(5, 11, 26, 0.35);
+    background-image: url(imageDePprojetCc3/robotic.jpg);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-position: center;
+    background-size: cover;
+}
+.text4{
+    padding: 40px 60px;
+    background: linear-gradient(180deg, #0a264b, #000000);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 65);
+}
+.title4{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #005389ff;
+    padding-bottom: 40px;
+    border-bottom:5px solid rgb(47, 68, 145) ;
+    border-radius: 10px;
+}
+.descr4{
+    color: #005389ff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.technologie5{
+    width: 85%;
+    min-height: 600px;
+    margin: 200px auto;
+    border: 5px solid #2d479b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.pic5{
+    width: 40%;
+    background-color: rgba(5, 11, 26, 0.35);
+    background-image: url(imageDePprojetCc3/suits.jpg);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-position: center;
+    background-size: cover;
+}
+.text5{
+    padding: 40px 60px;
+    background: linear-gradient(180deg, #0a264b, #000000);
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 65);
+}
+.title5{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #005389ff;
+    padding-bottom: 40px;
+    border-bottom:5px solid rgb(47, 68, 145) ;
+    border-radius: 10px;
+}
+.descr5{
+    color: #005389ff;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    color: white;
+    font-family: serif
+}
+#footer1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#footer3{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    width: 40px;
+    height: 40px;
+}
+.tpam{
+    margin-left: 130px;
+    word-spacing: 30px;
+}
+hr{
+    width: 82%;
+}
