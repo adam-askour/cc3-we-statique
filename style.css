@@ -15,7 +15,7 @@ body{
 }
 .btn{
     font-family: "Orbitron", sans-serif;
-    margin-left: 590px;
+    margin-left: 550px;
     margin-top: 200px;
     align-items: center;
     background-image: linear-gradient(144deg, #001449, #100079 50%, #002896);
@@ -34,7 +34,6 @@ body{
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
-    touch-action: manipulation;
     white-space: nowrap;
     cursor: pointer;
     transition: all 0.3s;
@@ -83,7 +82,6 @@ h3{
 }
 #section2{
     background-image: linear-gradient( black,#00010f, #000000);
-    /* background: linear-gradient(rgb(0, 0, 5),black); */
     color: #005389ff;
     font-family: "Orbitron",sans-serif;
     font-weight: 800;
@@ -92,10 +90,10 @@ h3{
 }
 .para1section2{
     margin: 0px 260px;
-    border: 6px solid rgb(0, 0, 75);
+    border: 6px solid rgb(0, 0, 92);
     border-radius: 15px;
     padding: 35px 95px;
-    background-color: rgb(3, 3, 31);
+    background-image: linear-gradient(rgb(0, 3, 43), rgb(0, 0, 59));
     box-shadow: 0 0 95px rgba(56, 189, 248, 0.25);
 }
 .para2section2{
@@ -103,7 +101,7 @@ h3{
     border: 6px solid rgb(0, 0, 75);
     border-radius: 15px;
     padding: 35px 95px;
-    background-color: rgb(3, 3, 31);
+    background-image: linear-gradient(rgb(0, 3, 43), rgb(0, 0, 59));
     box-shadow: 0 0 95px rgba(56, 189, 248, 0.25);
 }
 

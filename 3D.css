@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(black,rgb(0, 0, 43),black);
+}
+
+iframe{
+    width: 800px;
+    height: 500px;
+    margin: 150px 250px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+iframe:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 0 100px rgba(56, 189, 248, 0.500);
+}

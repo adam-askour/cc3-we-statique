@@ -1,0 +1,291 @@
+body{
+    font-family: "Orbitron" , sans-serif;
+    background-image: url(imageDePprojetCc3/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.home-link{
+  display: inline-flex;
+  align-items: center;  
+  color: #4fc3ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home-text{
+  font-size: 18px;
+}
+
+.home-icon{
+  width: 26px;
+  height: 26px;
+  margin: 10px;
+}
+
+.home-link:hover{
+  text-shadow: 0 0 8px rgba(79,195,255,0.8);
+}
+
+#spaceX{
+    width:300px;
+    display: flex;
+    margin: 30px auto;
+}
+.title{
+    text-align: center;
+    color: rgb(25, 111, 168);
+    text-shadow: 0px 0px 4px rgb(122, 173, 207);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px 5px 0px ;
+}
+.title h3{
+    color: rgb(76, 153, 204);
+}
+
+.cards1_2{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    padding: 50px 100px;
+    
+}
+
+.card1{
+    border: 3px solid rgb(104, 169, 213);
+    background-image: linear-gradient(144deg, #000000, #130c3e 70%, #131f40);
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    box-shadow: 0px 0px 8px rgb(149, 149, 200);
+}
+
+.card1:hover{
+    transform: translateY(-6px);
+    transition: all 0.3s;
+    box-shadow: 0 0 20px #9ba5c2;
+}
+
+
+.img1{
+    background-image: url(imageDePprojetCc3/moon.jpeg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    padding-top: 25px;
+    border-bottom:2px solid rgb(104, 169, 213);
+    border-radius: 15px;
+}
+
+.text1 h2{
+    text-align: center;
+    color:rgb(77, 143, 187);
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.text1 p{
+    font-size: 15px;
+    color: rgb(171, 202, 222);
+    text-align: left;
+    padding: 0px 20px;
+}
+
+
+
+
+
+.card2{
+    border: 3px solid rgb(104, 169, 213);
+    background-image: linear-gradient(144deg, #000000, #130c3e 70%, #131f40);
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(149, 149, 200);
+}
+
+.card2:hover{
+    transform: translateY(-6px);
+    transition: all 0.3s;
+    box-shadow: 0 0 20px #9ba5c2;
+}
+
+.img2{
+    background-image: url(imageDePprojetCc3/mars.jpeg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    padding-top: 25px;
+    border-bottom:2px solid rgb(104, 169, 213);
+    border-radius: 15px;
+}
+
+.text2 h2{
+    text-align: center;
+    color:rgb(77, 143, 187) ;
+    border-radius:10px; 
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.text2 p{
+    font-size: 15px;
+    color: rgb(171, 202, 222);
+    text-align: left;
+    padding: 0px 20px;
+}
+
+
+
+
+.cards3_4{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    padding: 50px 100px;
+    
+}
+
+
+.card3{
+    border: 3px solid rgb(104, 169, 213);
+    background-image: linear-gradient(144deg, #000000, #130c3e 70%, #131f40);
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(149, 149, 200);
+}
+
+.card3:hover{
+    transform: translateY(-6px);
+    transition: all 0.3s;
+    box-shadow: 0 0 17px #9ba5c2;
+}
+
+.img3{
+    background-image: url(imageDePprojetCc3/rocket.jpeg);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    padding-top: 25px;
+    border-bottom:2px solid rgb(104, 169, 213);
+    border-radius: 15px;
+}
+
+.text3 h2{
+    text-align: center;
+    color:rgb(77, 143, 187) ;
+    border-radius:10px; 
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.text3 p{
+    font-size: 15px;
+    color: rgb(171, 202, 222);
+    text-align: left;
+    padding: 0px 20px;
+}
+
+
+.card4{
+    border: 3px solid rgb(104, 169, 213);
+    background-image: linear-gradient(144deg, #000000, #130c3e 70%, #131f40);
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(149, 149, 200);
+}
+
+.card4:hover{
+    transform: translateY(-6px);
+    transition: all 0.3s;
+    box-shadow: 0 0 20px #9ba5c2;
+}
+
+.img4{
+    background-image: url(imageDePprojetCc3/alien.png);
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px auto;
+    padding-top: 25px;
+    border-bottom:2px solid rgb(104, 169, 213);
+    border-radius: 15px;
+}
+
+.text4 h2{
+    text-align: center;
+    color:rgb(77, 143, 187) ;
+    border-radius:10px; 
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.text4 p{
+    font-size: 15px;
+    color: rgb(171, 202, 222);
+    text-align: left;
+    padding: 0px 20px;
+}
+.description{
+    font-weight: 700;
+}
+footer{
+    background-image: linear-gradient(rgb(0, 0, 10),black);
+    margin-top: 200px;
+    color: white;
+    font-family: serif
+}
+#footer1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#footer3{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    width: 40px;
+    height: 40px;
+}
+.tpam{
+    margin-left: 130px;
+    word-spacing: 30px;
+}
+
+
+@media(max-width:700px){
+    
+    .cards1_2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cards3_4{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1,.card2,.card3,.card4{
+        width: 300px;
+    }
+    .title{
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    
+}

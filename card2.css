@@ -1,7 +1,31 @@
 body{
     background-color: black;
     margin: 0px;
+    font-family: "Orbitron" , sans-serif;
 }
+.home-link{
+  display: inline-flex;
+  align-items: center;
+          
+  color: #4fc3ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.home-text{
+  font-size: 18px;
+}
+
+.home-icon{
+  width: 26px;
+  height: 26px;
+  margin: 10px;
+}
+
+.home-link:hover{
+  text-shadow: 0 0 8px rgba(79,195,255,0.8);
+}
+
 .title{
     text-shadow: 0px 0px 6px rgb(110, 197, 221);
 }
@@ -247,6 +271,7 @@ body{
     background-color: rgb(45, 45, 53);
 }
 footer{
+    margin-top: 200px;
     color: white;
     font-family: serif
 }
