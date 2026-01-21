@@ -3,20 +3,22 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore more</title>
     <link rel="stylesheet" href="page2.css">
 </head>
 <body>
-    <a href="index.html" class="home-link">
-    <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-        <path d="M3 10.5L12 3l9 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-    <span class="home-text">Home</span>
-    </a>
+        <a href="index.html" class="home-link">
+            <svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M3 10.5L12 3l9 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="home-text">Home</span>
+        </a>
     <h1>Begin Your Exploration</h1>
     <h3><b>Choose a path and discover the universe beyond Earth.</b></h3>
     <br><br><br><br><br><br>
@@ -58,57 +60,86 @@
             </a>
         </div>
     </div>
-    <h2>Wanna live it?</h2>
-    <a href="3D.html" ><button class="btn"><span >Click Here</span></button></a>
+    <h2>Wanna live it ?</h2>
+    <a href="3D.html" ><button class="btn"><span>Click Here</span></button></a>
 </body>
-<footer>
-    <div id="footer1">
-        <div class="clients">
-            <p><b>Clients</b></p><br>
-            <p>Templates</p>
-            <p>Entreprise</p>
-            <p>Extensions</p>
-            <p>Managers</p>
-            <p>How to hire</p>
+<footer class="footer">
+    <div class="container">
+        <div class="row" class="footer1">
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f1">
+                    <b>Clients</b>
+                </button>
+                <div id="f1" class="collapse d-md-block">
+                    <p>Templates</p>
+                    <p>Entreprise</p>
+                    <p>Extensions</p>
+                    <p>Managers</p>
+                    <p>How to hire</p>
+                </div>
+            </div>
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f2">
+                    <b>Talent</b>
+                </button>
+                <div id="f2" class="collapse d-md-block">
+                    <p>Operations</p>
+                    <p>Marketing</p>
+                    <p>Finance</p>
+                    <p>Product</p>
+                    <p>Support</p>
+                </div>
+            </div>
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f3">
+                    <b>Resources</b>
+                </button>
+                <div id="f3" class="collapse d-md-block">
+                    <p>Community</p>
+                    <p>Resources</p>
+                    <p>Learning</p>
+                    <p>Webinars</p>
+                    <p>Customers</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f4">
+                    <b>About us</b>
+                </button>
+                <div id="f4" class="collapse d-md-block">
+                    <p>Leadership</p>
+                    <p>Careers</p>
+                    <p>Services</p>
+                    <p>Contact us</p>
+                </div>
+            </div>
         </div>
-        <div class="talent">
-            <p><b>Talent</b></p><br>
-            <p>Operations</p>
-            <p>Marketing</p>
-            <p>Finance</p>
-            <p>Product</p>
-            <p>Support</p>
+        
+        <div class="footer-bottom mt-5">
+            <div class="tpam">
+                <p>Terms Privacy Advertise Media</p>
+            </div>
+            <hr>
+            <div class="socials">
+                <img src="imageDePprojetCc3/youtube.jpg" class="social">
+                <img src="imageDePprojetCc3/twitter.png" class="social">
+                <img src="imageDePprojetCc3/facebook.png" class="social">
+                <img src="imageDePprojetCc3/linkding.png" class="social">
+                <img src="imageDePprojetCc3/insta.png" class="social">
+            </div>
         </div>
-        <div class="resources">
-            <p><b>Resources</b></p><br>
-            <p>Community</p>
-            <p>Resources</p>
-            <p>Learning</p>
-            <p>Webiners</p>
-            <p>Customers</p>
-        </div>
-        <div class="company">
-            <p><b>About us</b></p><br>
-            <p>Leadership</p>
-            <p>Careers</p>
-            <p>Services</p>
-            <p>Contact us</p>
-        </div>
-    </div><br><br><br>
-    <div id="footer2">
-        <p class="tpam">Terms Privacy Advertise Media</p>
-        <hr>
-    </div>
-    <div id="footer3">
-        <p> Inspired by NASA & SpaceX (educational use)  |
-                    © 2026 Space Exploration. All rights reserved</p>
-        <div>
-            <img src="imageDePprojetCc3/youtube.jpg" alt="Youtube" class="social">
-            <img src="imageDePprojetCc3/twitter.png" alt="Twitter"class="social">
-            <img src="imageDePprojetCc3/facebook.png" alt="Facebook"class="social">
-            <img src="imageDePprojetCc3/linkding.png" alt="Linkding"class="social">
-            <img src="imageDePprojetCc3/insta.png" alt="instagram"class="social">
-        </div>
+        <p class="copyright">
+           Inspired by NASA & SpaceX (educational use) | © 2026 Space Exploration. All rights reserved
+        </p>
     </div>
 </footer>
 </html>

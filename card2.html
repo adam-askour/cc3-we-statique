@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -93,53 +95,83 @@
         </div>
     </div>
 </body>
-<footer>
-    <div id="footer1">
-        <div class="clients">
-            <p><b>Clients</b></p><br>
-            <p>Templates</p>
-            <p>Entreprise</p>
-            <p>Extensions</p>
-            <p>Managers</p>
-            <p>How to hire</p>
+<footer class="footer">
+    <div class="container">
+        <div class="row" class="footer1">
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f1">
+                    <b>Clients</b>
+                </button>
+                <div id="f1" class="collapse d-md-block">
+                    <p>Templates</p>
+                    <p>Entreprise</p>
+                    <p>Extensions</p>
+                    <p>Managers</p>
+                    <p>How to hire</p>
+                </div>
+            </div>
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f2">
+                    <b>Talent</b>
+                </button>
+                <div id="f2" class="collapse d-md-block">
+                    <p>Operations</p>
+                    <p>Marketing</p>
+                    <p>Finance</p>
+                    <p>Product</p>
+                    <p>Support</p>
+                </div>
+            </div>
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f3">
+                    <b>Resources</b>
+                </button>
+                <div id="f3" class="collapse d-md-block">
+                    <p>Community</p>
+                    <p>Resources</p>
+                    <p>Learning</p>
+                    <p>Webinars</p>
+                    <p>Customers</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 footer-col">
+                <button class="footer-title"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#f4">
+                    <b>About us</b>
+                </button>
+                <div id="f4" class="collapse d-md-block">
+                    <p>Leadership</p>
+                    <p>Careers</p>
+                    <p>Services</p>
+                    <p>Contact us</p>
+                </div>
+            </div>
         </div>
-        <div class="talent">
-            <p><b>Talent</b></p><br>
-            <p>Operations</p>
-            <p>Marketing</p>
-            <p>Finance</p>
-            <p>Product</p>
-            <p>Support</p>
+        
+        <div class="footer-bottom mt-5">
+            <div class="tpam">
+                <p>Terms Privacy Advertise Media</p>
+            </div>
+            <hr>
+            <div class="socials">
+                <img src="imageDePprojetCc3/youtube.jpg" class="social">
+                <img src="imageDePprojetCc3/twitter.png" class="social">
+                <img src="imageDePprojetCc3/facebook.png" class="social">
+                <img src="imageDePprojetCc3/linkding.png" class="social">
+                <img src="imageDePprojetCc3/insta.png" class="social">
+            </div>
         </div>
-        <div class="resources">
-            <p><b>Resources</b></p><br>
-            <p>Community</p>
-            <p>Resources</p>
-            <p>Learning</p>
-            <p>Webiners</p>
-            <p>Customers</p>
-        </div>
-        <div class="company">
-            <p><b>About us</b></p><br>
-            <p>Leadership</p>
-            <p>Careers</p>
-            <p>Services</p>
-            <p>Contact us</p>
-        </div>
-    </div><br><br><br>
-    <div id="footer2">
-        <p class="tpam">Terms Privacy Advertise Media</p>
-        <hr>
-    </div>
-    <div id="footer3">
-        <p> Inspired by NASA & SpaceX (educational use)  | © 2026 Space Exploration. All rights reserved</p>
-        <div>
-            <img src="imageDePprojetCc3/youtube.jpg" alt="Youtube" class="social">
-            <img src="imageDePprojetCc3/twitter.png" alt="Twitter"class="social">
-            <img src="imageDePprojetCc3/facebook.png" alt="Facebook"class="social">
-            <img src="imageDePprojetCc3/linkding.png" alt="Linkding"class="social">
-            <img src="imageDePprojetCc3/insta.png" alt="instagram"class="social">
-        </div>
+        <p class="copyright">
+           Inspired by NASA & SpaceX (educational use) | © 2026 Space Exploration. All rights reserved
+        </p>
     </div>
 </footer>
 </html>

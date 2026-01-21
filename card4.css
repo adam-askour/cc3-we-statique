@@ -94,11 +94,6 @@ body{
     text-align: left;
     padding: 0px 20px;
 }
-
-
-
-
-
 .card2{
     border: 3px solid rgb(104, 169, 213);
     background-image: linear-gradient(144deg, #000000, #130c3e 70%, #131f40);
@@ -242,7 +237,6 @@ body{
     font-weight: 700;
 }
 footer{
-    background-image: linear-gradient(rgb(0, 0, 10),black);
     margin-top: 200px;
     color: white;
     font-family: serif
@@ -263,29 +257,100 @@ footer{
     height: 40px;
 }
 .tpam{
-    margin-left: 130px;
     word-spacing: 30px;
 }
-
-
-@media(max-width:700px){
+hr{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+}
+.footer-title{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
     
-    .cards1_2{
+}
+.copyright {
+    text-align: start;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.socials{
+    float: right;
+}
+
+@media (max-width: 768px) {
+
+    body {
         display: flex;
         flex-direction: column;
+        text-align: center;
+        padding: 10px;
         
     }
-    .cards3_4{
-        display: flex;
-        flex-direction: column;
-    }
-    .card1,.card2,.card3,.card4{
-        width: 300px;
-    }
-    .title{
-        font-size: 15px;
-        font-weight: 300;
+
+    h1 {
+        font-size: 28px;
+    
     }
 
-    
+    h2 {
+        display: block;
+        width: 100%;
+        margin: 40px auto 20px auto;
+        text-align: center;
+    }
+
+
+
+    h3 {
+        font-size: 16px;
+        
+    }
+
+    #cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .cards1_2,
+    .cards3_4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 90%;
+        margin: 0 auto;
+        min-height: 220px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 40px;
+        font-size: 28px;
+        margin-right: 75px;
+    }
+
+    button.btn {
+        width: 60%;
+        height: 60px;
+        
+        margin: 20px auto;
+        display: flex;
+    }
+    .home-link{
+        margin-right: 10px;
+    }
 }

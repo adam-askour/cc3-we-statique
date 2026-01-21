@@ -13,3 +13,15 @@ iframe:hover{
     transform: translateY(-6px);
     box-shadow: 0 0 100px rgba(56, 189, 248, 0.500);
 }
+
+@media(max-width:768px) {
+    iframe{
+        background-size: cover;
+        background-position: center;
+        width: 1000px;
+        margin: 350px 130px 0;
+        height: 650px;
+        border-radius: 50px;
+        
+    }
+}
