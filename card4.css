@@ -354,3 +354,37 @@ hr{
         margin-right: 10px;
     }
 }
+@media (max-width: 900px){
+  #spaceX{ width: 220px; }
+
+  .cards1_2{
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 16px;
+  }
+
+  .card1, .card2{
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    padding-bottom: 18px;
+  }
+    .cards3_4{
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 16px;
+  }
+
+  .card3, .card4{
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    padding-bottom: 18px;
+  }
+}
+
+@media (max-width: 600px){
+  .title{ font-size: 18px; }
+  .card1, .card2{ max-width: 92%; }
+  .card3, .card4{ max-width: 92%; }
+}

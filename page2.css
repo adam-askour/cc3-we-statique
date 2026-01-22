@@ -361,3 +361,16 @@ hr{
         margin-right: 10px;
     }
 }
+@media (max-width: 900px){
+  h1{ font-size: 32px; }
+  .cards1_2{ flex-direction: column; gap: 90px; }
+  .card1, .card2{ width: 92%; height: auto; }
+  .cards3_4{ flex-direction: column; gap: 90px;}
+  .card3, .card4{ width: 92%; height: auto; }
+}
+
+@media (max-width: 600px){
+  h1{ font-size: 26px; }
+  .card1, .card2{ padding: 16px 16px; }
+  .card3, .card4{ padding: 16px 16px; }
+}

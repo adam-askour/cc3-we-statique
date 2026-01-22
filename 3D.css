@@ -25,3 +25,18 @@ iframe:hover{
         
     }
 }
+@media (max-width: 900px){
+  iframe{
+    width: calc(100% - 32px);
+    height: 60vh;
+    margin: 80px 16px;
+    border-radius: 18px;
+  }
+}
+
+@media (max-width: 600px){
+  iframe{
+    height: 65vh;
+    margin-top: 60px;
+  }
+}

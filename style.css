@@ -134,3 +134,29 @@ a{
 hr{
     width: 82%;
 }
+
+@media (max-width: 900px){
+  #hero{
+    padding: 20px 0 140px;
+    font-size: 28px;
+  }
+  #spaceX{ width: 220px; }
+
+  .btn{
+    margin: 40px auto 0;
+  }
+
+  .para1section2,
+  .para2section2{
+    margin: 30px 20px;
+    padding: 24px 20px;
+  }
+}
+
+@media (max-width: 600px){
+  #hero{ font-size: 22px; padding: 18px 0 110px; }
+  h3{ font-size: 22px; }
+
+  .btn{ width: 80%; }
+  .btn span{ padding: 14px 18px; }
+}

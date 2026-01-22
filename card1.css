@@ -381,3 +381,45 @@ hr{
         margin-right: 10px;
     }
 }
+@media (max-width: 900px){
+  #hero{
+    padding: 20px 0 140px;
+    font-size: 28px;
+  }
+  #spaceX{ width: 220px; }
+
+  .para1, .para2{
+    margin: 30px 20px;
+    padding: 24px 20px;
+  }
+
+  /* Planet cards: stack */
+  .Planet_card_1,.Planet_card_2,.Planet_card_3,.Planet_card_4,
+  .Planet_card_5,.Planet_card_6,.Planet_card_7,.Planet_card_8{
+    flex-direction: column;
+    height: auto;
+    margin: 50px 16px;
+  }
+
+  .planet_card_1_text,.planet_card_2_text,.planet_card_3_text,.planet_card_4_text,
+  .planet_card_5_text,.planet_card_6_text,.planet_card_7_text,.planet_card_8_text{
+    width: 100%;
+    padding: 22px;
+  }
+
+  .planet_card_1_img,.planet_card_2_img,.planet_card_3_img,.planet_card_4_img,
+  .planet_card_5_img,.planet_card_6_img,.planet_card_7_img,.planet_card_8_img{
+    width: 100%;
+    height: 240px;
+  }
+}
+
+@media (max-width: 600px){
+  .home-text{ font-size: 16px; }
+  .home-icon{ width: 22px; height: 22px; }
+
+  .planet_card_1_img,.planet_card_2_img,.planet_card_3_img,.planet_card_4_img,
+  .planet_card_5_img,.planet_card_6_img,.planet_card_7_img,.planet_card_8_img{
+    height: 200px;
+  }
+}
